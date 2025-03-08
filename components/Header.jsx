@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo Section */}
-          <h1 className="text-2xl font-extrabold text-center leading-tight">
+          <h1 className="text-xl md:text-2xl font-extrabold text-center leading-tight">
             SIGNATURE
           </h1>
           <div className="flex items-center gap-x-6">

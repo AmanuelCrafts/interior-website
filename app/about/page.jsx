@@ -20,7 +20,7 @@ const page = () => {
   return (
     <div>
       <div className="bg-[url('/image/whoweare.jpg')] bg-center bg-cover">
-        <h1 className="container py-32 text-6xl font-semibold text-black tracking-widest text-center lg:py-64">
+        <h1 className="container py-32 text-4xl md:text-6xl font-semibold text-black tracking-widest text-center lg:py-64">
           Who are we?
         </h1>
       </div>
@@ -39,7 +39,7 @@ const page = () => {
             initial="offscreen"
             whileInView={"onScreen"}
             variants={descVariants}
-            className="text-2xl text-center font-light pb-10 mt-5"
+            className="text-xl md:text-2xl text-center font-extralight md:font-light pb-10 mt-5"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             necessitatibus perferendis labore adipisci ea ullam corporis natus
