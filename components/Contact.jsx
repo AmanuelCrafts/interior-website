@@ -54,7 +54,7 @@ const posts = [
 
 const Contact = () => {
   return (
-    <div className="pt-12">
+    <div className="pt-12 px-[3%] lg:px-[7%]">
       <div className="mx-auto  max-w-7xl px-6 lg:px-8">
         <motion.h2
           initial="offscreen"

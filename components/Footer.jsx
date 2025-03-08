@@ -37,21 +37,19 @@ export default function Footer() {
             whileInView={"onScreen"}
             variants={descVariants}
           >
-            <h2 className="pb-4 text-xl font-semibold uppercase">
-              Development
-            </h2>
+            <h2 className="pb-4 text-xl font-semibold uppercase">WORK</h2>
             <div className="flex flex-col">
               <Link href="/" className="py-1 hover:underline">
-                Documentation
+                Design Consultation
               </Link>
               <Link href="/" className="py-1 hover:underline">
-                Reference
+                Material Selection
               </Link>
               <Link href="/" className="py-1 hover:underline">
-                Changelog
+                Project Gallery
               </Link>
               <Link href="/" className="py-1 hover:underline">
-                Status
+                Work Progress
               </Link>
             </div>
           </motion.div>
@@ -108,7 +106,10 @@ export default function Footer() {
       >
         <div className="container mx-auto text-white text-center lg:justify-between lg:flex">
           <div className="pb-4 lg:pb-0">
-            <p>&copy; 2025 Interior. All Rights Reserved</p>
+            <p>
+              &copy; 2025 Signature Interior and Finishing Work. All Rights
+              Reserved
+            </p>
           </div>
           <div>
             <Link href="/" className="p-4 hover:underline">
@@ -120,6 +121,23 @@ export default function Footer() {
           </div>
         </div>
       </motion.div>
+
+      <motion.p
+        initial="offscreen"
+        whileInView={"onScreen"}
+        variants={tagVariants}
+        className="w-full text-center text-lg py-4"
+      >
+        Developed by{" "}
+        <a
+          href="https://t.me/amanz4455"
+          target="_blank"
+          className="text-primary font-bold"
+        >
+          Amanuel Abebaw
+        </a>{" "}
+        🚀
+      </motion.p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className="px-[3%] lg:px-[7%]">
+    <main>
       <Hero />
       <CompanySection />
       <About />

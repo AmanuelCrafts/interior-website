@@ -6,7 +6,7 @@ import { descVariants, tagVariants, titleVariants } from "@/utils/animation";
 
 const About = () => {
   return (
-    <div className="container py-12 xl:py-24 mx-auto h-[auto]">
+    <div className="container py-12 xl:py-24 mx-auto h-[auto] px-[3%] lg:px-[7%]">
       <div className="grid lg:grid-cols-2 place-items-center">
         <motion.div
           initial="offscreen"

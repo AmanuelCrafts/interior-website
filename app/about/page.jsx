@@ -105,7 +105,7 @@ const page = () => {
               variants={titleVariants}
               className="border-2 border-primary rounded-3xl"
             >
-              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-secondary -m-0.5 hover:-translate-y-3 hover:-translate-x-3 rounded-3xl">
+              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-secondary -m-0.5 hover:-translate-y-3 hover:-translate-x-3 rounded-3xl transition-all">
                 <Image
                   src="/image/profile2.jpg"
                   width={200}
@@ -130,7 +130,7 @@ const page = () => {
               variants={descVariants}
               className="border-2 border-primary rounded-3xl"
             >
-              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-secondary -m-0.5 hover:-translate-y-3 hover:-translate-x-3 rounded-3xl">
+              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-secondary -m-0.5 hover:-translate-y-3 hover:-translate-x-3 rounded-3xl transition-all">
                 <Image
                   src="/image/profile1.jpg"
                   width={200}
@@ -155,7 +155,7 @@ const page = () => {
               variants={tagVariants}
               className="border-2 border-primary rounded-3xl"
             >
-              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-secondary -m-0.5 hover:-translate-y-3 hover:-translate-x-3 rounded-3xl">
+              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-secondary -m-0.5 hover:-translate-y-3 hover:-translate-x-3 rounded-3xl transition-all">
                 <Image
                   src="/image/profile3.jpg"
                   width={200}

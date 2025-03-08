@@ -12,7 +12,7 @@ import { descVariants, tagVariants, titleVariants } from "@/utils/animation";
 
 const CatalogueSwiper = () => {
   return (
-    <div className="py-8 lg:py-28">
+    <div className="py-8 lg:py-28 px-[3%] lg:px-[7%]">
       <div className="container grid pb-8 lg:grid-cols-1">
         <div className="text-left">
           <motion.h1

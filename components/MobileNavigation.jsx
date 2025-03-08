@@ -12,7 +12,9 @@ const MobileNavigation = () => {
       <SheetContent>
         <div className="flex flex-col items-center justify-between h-full py-8">
           <div className="flex flex-col items-center gap-y-32">
-            <h1>LOGO</h1>
+            <h1 className="text-2xl font-extrabold text-center leading-tight">
+              SIGNATURE
+            </h1>
             <Nav
               containerStyles="flex flex-col items-center gap-y-6"
               linkStyles="text-xl font-semibold"

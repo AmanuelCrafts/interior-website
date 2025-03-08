@@ -38,7 +38,7 @@ export default function Catalogue() {
   ];
 
   return (
-    <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 lg:gap-0 divide-gray-300 lg:divide-x">
+    <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 lg:gap-0 divide-gray-300 lg:divide-x px-[3%] lg:px-[7%]">
       {items.map((item) => (
         <div key={item.id} className="relative overflow-hidden group">
           <div>

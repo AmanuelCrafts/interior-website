@@ -12,7 +12,7 @@ const Header = () => {
 
   useEffect(() => {
     const scrollYPos = window.addEventListener("scroll", () => {
-      window.scrollY > 50 ? setHeader(true) : setHeader(false);
+      window.scrollY >= 50 ? setHeader(true) : setHeader(false);
 
       return () => window.removeEventListener("scroll", scrollYPos);
     });
@@ -31,7 +31,9 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo Section */}
-          <h1>Hello</h1>
+          <h1 className="text-2xl font-extrabold text-center leading-tight">
+            SIGNATURE
+          </h1>
           <div className="flex items-center gap-x-6">
             {/* Nav section */}
             <Nav
